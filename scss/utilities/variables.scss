@@ -1,0 +1,65 @@
+// Colores
+$color-primario: red;
+$color-primario-enfasis: #e1160d;
+$color-primario-oscuro: #a70a15;
+
+$color-texto-principal: whitesmoke;
+$color-texto-secundario: grey;
+$color-texto-terciario: rgb(156, 156, 156);
+$color-texto-footer: aliceblue;
+
+$color-fondo-body: #0f0f0f;
+$color-fondo-menu: black;
+$color-fondo-menu-responsive: #303030;
+$color-fondo-footer: #040404;
+$color-fondo-inputs: #333;
+
+$color-borde-menu: #ffffff29;
+$color-borde-inputs: #555;
+$color-borde-nav-responsive: #444;
+
+// Tipografía
+$fuente-principal: 'Poppins', sans-serif;
+$font-size-base: 1rem;
+
+// Tamaños para las fuentes
+$font-size-1: 0.875rem;
+$font-size-2: 0.9375rem;
+$font-size-3: 1rem;
+$font-size-4: 1.125rem;
+$font-size-5: 1.25rem;
+$font-size-6: 1.5rem;
+$font-size-7: 1.5625rem;
+$font-size-8: 1.875rem;
+$font-size-9: 2.5rem;
+$font-size-10: 3.4375rem;
+
+
+// Tamaños para el responsive
+$font-size-resp-1: 1rem;
+$font-size-resp-2: 1.125rem;
+$font-size-resp-3: 1.375rem;
+$font-size-resp-4: 1.75rem;
+$font-size-resp-4: 2.5rem;
+
+// Espaciados
+$padding-menu-horizontal: 1.25rem;
+$padding-nav-link: 1.25rem;
+$margin-main-general-top: 3rem;
+$padding-main-general: 1.25rem;
+$padding-main-contacto-top: 5rem;
+$gap-section-gym: 1.25rem;
+$margin-bottom-section-gym: 2.5rem;
+
+// Bordes
+$border-width-menu: 0.0625rem;
+$border-radius-img: 0.5rem;
+$border-radius-btn-info: 1rem;
+$border-radius-form-elements: 0.25rem;
+$border-radius-btn-submit: 0.5rem;
+
+// Breakpoint
+$breakpoint-medium: 991px;
+
+// Transiciion
+$transition-bg-color: background-color 0.3s ease;

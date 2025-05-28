@@ -1,0 +1,86 @@
+// Botón +info
+.btn-info {
+    display: inline-block;
+    padding: 0.5rem 0.9375rem;
+    border-radius: $border-radius-btn-info;
+    background-color: $color-primario-enfasis;
+    font-size: $font-size-2;
+    color: $color-texto-principal;
+    text-transform: uppercase;
+    margin: 0.3125rem;
+    transition: $transition-bg-color;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-primario-oscuro;
+    }
+}
+
+// Botón de envío del formulario
+.main-contacto button[type="submit"] {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: $border-radius-btn-submit;
+    background-color: $color-primario-enfasis;
+    font-size: $font-size-4;
+    color: $color-texto-principal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: $transition-bg-color;
+
+    &:hover {
+        background-color: $color-primario-oscuro;
+    }
+}
+
+
+// Formulario
+.main-contacto {
+    form {
+        div {
+            margin-bottom: 0.9375rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.3125rem;
+            font-size: $font-size-3;
+            text-align: left;
+            max-width: 31.25rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            max-width: 31.25rem;
+            padding: 0.625rem;
+            border: $border-width-menu solid $color-borde-inputs;
+            border-radius: $border-radius-form-elements;
+            background-color: $color-fondo-inputs;
+            color: $color-texto-principal;
+            font-size: $font-size-3;
+            font-family: $fuente-principal; 
+        }
+
+        textarea {
+            min-height: 9.375rem;
+            resize: vertical;
+        }
+
+    }
+}
+
+
+// Imágenes
+.img-1, .img-2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: $border-radius-img;
+}

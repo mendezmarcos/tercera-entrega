@@ -1,0 +1,9 @@
+body {
+    font-family: $fuente-principal;
+    background-color: $color-fondo-body;
+    color: $color-texto-principal;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+    font-size: $font-size-base;
+}

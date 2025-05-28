@@ -1,0 +1,32 @@
+// Contacto
+.main-contacto {
+    padding-top: $padding-main-contacto-top;
+    text-align: center;
+    color: $color-texto-principal;
+    padding-left: $padding-main-general;
+    padding-right: $padding-main-general;
+
+    h1 {
+        font-size: $font-size-9;
+        margin-bottom: $padding-main-general;
+    }
+
+    span {
+        color: $color-primario-enfasis;
+    }
+}
+
+// Preguntas Frecuentes
+
+.pregunta {
+    font-size: $font-size-6;
+    color: $color-texto-principal;
+    margin-bottom: 0.5rem;
+}
+
+.respuesta {
+    font-size: $font-size-4;
+    color: $color-texto-terciario;
+    padding-left: $padding-main-general;
+    line-height: 1.6;
+}

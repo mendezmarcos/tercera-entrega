@@ -1,0 +1,141 @@
+.header-inicio {
+    background-image: url(/assets/img/champ.jpeg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    @include flex-center;
+    text-align: center;
+}
+
+
+.header-p {
+    position: relative;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $padding-main-general;
+    padding-right: $padding-main-general;
+}
+
+
+.main-inicio {
+    padding: $padding-main-general;
+
+    h1 {
+        color: $color-texto-principal;
+        font-size: $font-size-10;
+        font-weight: 800;
+        padding-left: 2%;
+        margin-bottom: 0.625rem;
+    }
+
+    em {
+        color: $color-primario-enfasis;
+        font-style: normal;
+    }
+
+    p {
+        color: $color-texto-secundario;
+        font-size: $font-size-5;
+        max-width: 60rem;
+        line-height: 1.6;
+        margin: 0 auto 2%;
+    }
+}
+
+.main-general {
+    margin-top: $margin-main-general-top;
+    padding: $padding-main-general;
+    color: $color-primario-enfasis;
+
+    .main-info {
+        h1 {
+            color: $color-texto-principal;
+            font-size: $font-size-9;
+            margin-bottom: $padding-main-general;
+            text-align: center;
+        }
+    }
+
+    ul {
+        padding-left: 0;
+        li {
+            margin-bottom: $padding-main-general;
+        }
+    }
+}
+
+
+section.gym.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: $gap-section-gym;
+    margin-bottom: $margin-bottom-section-gym;
+}
+
+.gym-1, .gym-2 {
+    flex: 1 1 25rem;
+}
+
+.gym-1 {
+    h2 {
+        font-size: $font-size-8;
+        color: $color-texto-principal;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 0.9375rem;
+    }
+
+    p {
+        font-size: $font-size-4;
+        color: $color-texto-terciario;
+        margin-bottom: 0.3125rem;
+        line-height: 1.6;
+    }
+
+    span { 
+        color: $color-primario-oscuro;
+    }
+}
+
+
+.gym-3 { 
+    margin-bottom: $margin-bottom-section-gym;
+    text-align: center;
+
+    .img { 
+        width: 100%;
+        max-width: 31.25rem;
+        height: auto;
+        margin: 0.625rem auto;
+        display: block;
+        border-radius: $border-radius-img;
+    }
+
+    p.Clases { 
+        color: $color-texto-principal;
+        font-size: $font-size-6;
+        font-weight: 600;
+        margin-bottom: 0.9375rem;
+    }
+}
+
+
+.footer {
+    border-top: $border-width-menu solid $color-borde-menu;
+    padding: 1.875rem 0;
+    background-color: $color-fondo-footer;
+    text-align: center;
+
+    .reserva-de-derechos {
+        color: $color-texto-footer;
+        font-size: $font-size-1;
+    }
+}

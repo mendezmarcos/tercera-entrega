@@ -1,0 +1,107 @@
+@media (max-width: $breakpoint-medium) {
+
+    // Menú
+
+    .menu {
+        padding: 1rem;
+
+        label[for="menu"] {
+            display: initial;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: $color-fondo-menu-responsive;
+            display: none;
+            width: 100%;
+            border-top: $border-width-menu solid $color-borde-menu;
+
+            ul {
+                li {
+                    width: 100%;
+                    float: none;
+                    text-align: center;
+
+                    a {
+                        padding: 0.9375rem;
+                        border-bottom: $border-width-menu solid $color-borde-nav-responsive;
+                    }
+
+                    &:last-child a {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+
+        #menu:checked ~ .navbar {
+            display: block;
+        }
+    }
+
+    // Header de las Páginas
+    .header-p { 
+        padding-top: 4.5rem;
+        padding-bottom: 1.25rem;
+    }
+
+
+    // Página de Inicio
+    .main-inicio {
+        h1 {
+            font-size: $font-size-resp-4;
+        }
+        p {
+            font-size: $font-size-resp-2;
+            max-width: 90%;
+        }
+    }
+
+    // Secciones "Gym" (Nuestros Prof.)
+    .gym-1, .gym-2 {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .gym-1 { 
+        h2 {
+            font-size: $font-size-resp-4;
+        }
+        p {
+            font-size: $font-size-resp-1;
+        }
+    }
+
+    .img-1, .img-2 { 
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+
+    // Preguntas Frecuentes
+    .pregunta {
+        font-size: $font-size-resp-3;
+    }
+    .respuesta {
+        font-size: $font-size-resp-1;
+        margin-left: $padding-main-general;
+        padding-left: 0;
+    }
+
+    // Formulario de Contacto
+    .main-contacto {
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            max-width: 100%;
+        }
+
+        label {
+            max-width: 100%;
+        }
+    }
+}

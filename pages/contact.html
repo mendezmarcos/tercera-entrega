@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Rayo Team - Muay Thai</title>
+</head>
+
+<body>
+    
+    <header class="header-p">
+        
+        <div class="menu">
+        
+            <a href="../index.html" class="logo-segoteam">Segovia Team</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="../assets/img/menu.png" class="menu-icono" alt="Icono Menú"></label>
+            <nav class="navbar">
+
+                <ul>
+                    <li><a href="./clases.html"> Clases</a></li>
+                    <li><a href="./nuestros-profesionales.html">Nuestros Profesionales</a></li>
+                    <li><a href="./faq.html">Preguntas Frecuentes</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+        
+        </div>
+
+    </header>
+
+    <main class="main-contacto">
+
+        <h1> <span>Contacto</span> </h1>
+        <form action="/submit" method="post">
+            <div>
+                <label for="nombre">Nombre Completo<span>*</span></label>
+                <input type="text" name="nombre completo" id="nombre">
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo Electrónico<span>*</span></label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="Asunto">Asunto <span>*</span></label>
+                <select name="asunto" id="Asunto"> <option value="">Seleccione un Asunto</option> <option value="Asunto 1">Asunto 1</option>
+                    <option value="Asunto 2">Asunto 2</option>
+                    <option value="Asunto 3">Asunto 3</option>
+                    <option value="Asunto 4">Asunto 4</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="mensaje">Mensaje<span>*</span></label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+    
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="reserva-de-derechos">
+            <p>&copy;2025 | Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
